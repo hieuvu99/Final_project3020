@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styledocument.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="jquery-3.5.1.js"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-dark bg-dark navbar1">
+        <ul class="nav front">
+            <li class="nav-item">
+            <a class="nav-link active" href="#"><img src="Vsmartlogo.png" alt="HTML Icon" style="margin-left:-0.3cm;"></a>
+            </li>
+            <li class="nav-item nav-content">
+            <a class="nav-link" href="Login.html">SmartPhone</a>
+            </li>
+            <li class="nav-item nav-content">
+            <a class="nav-link" href="Login.html">TV</a>
+            </li>
+            <li class="nav-item nav-content">
+            <a class="nav-link" style="color: white;" tabindex="-1" aria-disabled="true">Support</a>
+            </li>
+        </ul>
+      
+        </nav>
+
+    </div>
+</br></br></br></br></br>
+<form action="database.php" method="post"  class="login-box" id="loginbox">
+    <div>
+        <h1>Sign in</h1>
+        <div>
+            <p>User Name</p>
+            <input type="text" name="username" id="username"> 
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="password" name="password" id="password"> *Password: only digit and start with uppercase 
+        </div>  
+    </br> 
+        <div>
+        <input type="submit" name="loginBtn" id="loginBtn" value="Sign in" class="btn btn-dark" />
+        </div>
+    </div>
+</form>  
+
+<h2> </h2>   
+    
+</body>
+<script src="login.js"></script>
+</html>

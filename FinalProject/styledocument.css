@@ -1,0 +1,68 @@
+
+.navbar1 .end
+{
+    margin-right: 9%;
+}
+.navbar2 .end{
+    margin-right:10% ;
+}
+.front{
+    margin-left: 15%;
+}
+.end{
+    margin-right: 15%;
+}
+.phone_select{
+    margin-left: 7cm;
+    margin-right: 7cm;
+}
+.btn-light{
+
+    height: 2cm;
+    width: 100%;
+    margin-left: auto;
+}
+.choose{
+    margin-left: 2%;
+}
+.session{
+    font-size: 1cm;
+    margin-left: 30%;
+    align-self: center;
+}
+.col-8 .btn-primary{
+    width: 140%;
+    
+}
+.col-4 .btn-primary{
+   margin-left: 80%;
+}
+.end_col{
+    margin-bottom: 10%;
+}
+.Phone_pic{
+    margin-top: 7cm;
+    margin-bottom: 3cm;
+}
+.inspect{
+ margin-top: 3cm;  
+   
+   
+}
+.nav-content{
+    margin-left: 3cm;
+}
+div{
+    width: auto;
+}
+img{
+ width: 100%;    
+}
+#price{
+    font-weight: bold;
+    font-size: 3ch;
+}
+.nav-link {
+    color: white;
+}
+
